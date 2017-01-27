@@ -41,7 +41,7 @@ class User {
         return $this->password;
     }
     public function checkAuth ($password) {
-        $db_hostname = "bill.ptk.ru";
+        $db_hostname = "localhost";
         $db_database = "test";
         $db_username = "test";
         $db_password = "test";
@@ -83,7 +83,7 @@ class User {
     public function setIpAction ($action) {
         // добавляем данные об активности IP
         // параметры подключения к БД
-        $db_hostname = "bill.ptk.ru";
+        $db_hostname = "localhost";
         $db_database = "test";
         $db_username = "test";
         $db_password = "test";
@@ -123,7 +123,7 @@ class User {
 }
 
 // параметры подключения к БД
-$db_hostname = "bill.ptk.ru";
+$db_hostname = "localhost";
 $db_database = "test";
 $db_username = "test";
 $db_password = "test";
